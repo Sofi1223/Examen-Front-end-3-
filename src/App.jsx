@@ -1,20 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Card from './Card'
+import React from 'react';
+import AnimalForm from './AnimalForm';
 
 function App() {
-  
-
   return (
-    
     <div className="App">
-      <h1>Carga de pasajeros</h1>
-      <form></form>
-      <Card></Card>
-
+      <AnimalForm />
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;
